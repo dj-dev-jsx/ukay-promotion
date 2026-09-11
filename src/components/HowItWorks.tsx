@@ -9,7 +9,7 @@ export function HowItWorks() {
       <div className="text-center">
         <p className="text-xs font-bold uppercase tracking-widest text-green-700">Simple by design</p>
         <h2 className="font-display mt-2 text-3xl font-bold tracking-tight text-charcoal sm:text-4xl">
-          How UKAY works
+          How UkayApp works
         </h2>
       </div>
 

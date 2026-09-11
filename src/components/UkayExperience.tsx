@@ -24,7 +24,7 @@ export function UkayExperience() {
           The thrill of the dig, now in your pocket.
         </h2>
         <p className="mx-auto mt-5 max-w-xl text-cream/70">
-          Every legendary find starts with a rummage through the pile. UKAY brings that same rush
+          Every legendary find starts with a rummage through the pile. UkayApp brings that same rush
           online — browse real racks of pre-loved pieces and bid before someone else spots it.
         </p>
       </div>

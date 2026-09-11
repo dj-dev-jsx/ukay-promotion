@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Menu, X, ShoppingBag } from 'lucide-react'
+import { Logo } from './Logo'
 
 const LINKS = [
   { label: 'How It Works', href: '#how-it-works' },
@@ -18,7 +19,7 @@ export function Navbar({ onJoin }: { onJoin: () => void }) {
           <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-green-800 text-cream">
             <ShoppingBag className="h-4.5 w-4.5" />
           </span>
-          <span className="font-display text-xl font-bold tracking-tight text-charcoal">UKAY</span>
+          <Logo className="text-xl" />
         </a>
 
         <div className="hidden items-center gap-8 md:flex">

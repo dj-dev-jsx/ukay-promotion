@@ -1,4 +1,5 @@
 import { ShoppingBag } from 'lucide-react'
+import { Logo } from './Logo'
 
 export function Footer() {
   return (
@@ -8,10 +9,10 @@ export function Footer() {
           <span className="flex h-7 w-7 items-center justify-center rounded-lg bg-green-800 text-cream">
             <ShoppingBag className="h-3.5 w-3.5" />
           </span>
-          <span className="font-display text-lg font-bold text-charcoal">UKAY</span>
+          <Logo className="text-lg" />
         </a>
 
-        <p className="text-xs text-charcoal/45">© 2026 UKAY. Made for Filipino thrift hunters.</p>
+        <p className="text-xs text-charcoal/45">© 2026 UkayApp. Made for Filipino thrift hunters.</p>
 
         <div className="flex items-center gap-5 text-xs font-medium text-charcoal/45">
           <a href="#" className="transition hover:text-charcoal">Instagram</a>

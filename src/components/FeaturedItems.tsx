@@ -21,7 +21,7 @@ export function FeaturedItems() {
         <div>
           <p className="text-xs font-bold uppercase tracking-widest text-green-700">Featured finds</p>
           <h2 className="font-display mt-2 text-3xl font-bold tracking-tight text-charcoal sm:text-4xl">
-            What you can buy on UKAY
+            What you can buy on UkayApp
           </h2>
         </div>
         <p className="max-w-sm text-sm text-charcoal/60">

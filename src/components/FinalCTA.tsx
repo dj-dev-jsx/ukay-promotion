@@ -17,7 +17,7 @@ export function FinalCTA({ onJoin }: { onJoin: () => void }) {
             Your next great find is waiting.
           </h2>
           <p className="mx-auto mt-4 max-w-md text-cream/60">
-            Be first in line when UKAY launches. Join thousands of buyers and sellers getting ready.
+            Be first in line when UkayApp launches. Join thousands of buyers and sellers getting ready.
           </p>
           <button
             onClick={onJoin}

@@ -7,7 +7,7 @@ export function WhyUkay() {
   return (
     <section id="about" className="mx-auto max-w-7xl px-5 py-20 sm:px-8 sm:py-28">
       <div className="text-center">
-        <p className="text-xs font-bold uppercase tracking-widest text-green-700">Why UKAY</p>
+        <p className="text-xs font-bold uppercase tracking-widest text-green-700">Why UkayApp</p>
         <h2 className="font-display mt-2 text-3xl font-bold tracking-tight text-charcoal sm:text-4xl">
           Not your typical marketplace
         </h2>

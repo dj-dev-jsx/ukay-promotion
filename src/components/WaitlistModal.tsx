@@ -43,7 +43,7 @@ export function WaitlistModal({ open, onClose }: { open: boolean; onClose: () =>
               Be first to find it.
             </h3>
             <p className="mt-2 text-sm text-charcoal/60">
-              Join the waitlist and we'll notify you the moment UKAY launches in your city.
+              Join the waitlist and we'll notify you the moment UkayApp launches in your city.
             </p>
             <form onSubmit={handleSubmit} className="mt-6 space-y-3">
               <input
@@ -72,7 +72,7 @@ export function WaitlistModal({ open, onClose }: { open: boolean; onClose: () =>
             </div>
             <h3 className="font-display mt-4 text-2xl font-bold text-charcoal">You're on the list!</h3>
             <p className="mt-2 text-sm text-charcoal/60">
-              We'll email <span className="font-medium text-charcoal">{email}</span> as soon as UKAY is ready for you.
+              We'll email <span className="font-medium text-charcoal">{email}</span> as soon as UkayApp is ready for you.
             </p>
             <button
               onClick={handleClose}

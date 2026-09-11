@@ -180,7 +180,7 @@ export const testimonials = [
     role: 'Waitlist member, Manila',
   },
   {
-    quote: "I've been reselling online for years. UKAY makes listing and bidding feel effortless.",
+    quote: "I've been reselling online for years. UkayApp makes listing and bidding feel effortless.",
     name: 'Josh T.',
     role: 'Early access tester, Cebu',
   },

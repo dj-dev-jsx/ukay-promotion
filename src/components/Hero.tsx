@@ -42,7 +42,7 @@ export function Hero({ onJoin }: { onJoin: () => void }) {
           </h1>
 
           <p className="mx-auto mt-6 max-w-lg text-lg text-charcoal/65 lg:mx-0">
-            Discover unique pre-loved finds, bid on items you love, and join live auctions with UKAY — the secondhand marketplace built for Filipino thrift hunters.
+            Discover unique pre-loved finds, bid on items you love, and join live auctions with UkayApp — the secondhand marketplace built for Filipino thrift hunters.
           </p>
 
           <div className="mt-8 flex flex-col items-center gap-3 sm:flex-row lg:justify-start">
