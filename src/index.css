@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Space Grotesk", "Inter", -apple-system, "Segoe UI", sans-serif;
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  /* Base surfaces — matches UkayApp's white/near-black neutrals */
+  --color-cream: #FFFFFF;
+  --color-cream-soft: #F5F5F5;
+  --color-charcoal: #16181D;
+  --color-charcoal-soft: #2A2D34;
+
+  /* Primary — UkayApp brand crimson (hsl(349 79% 54%)), darkest steps lean maroon for dark sections */
+  --color-green-950: #3D0E1C;
+  --color-green-900: #5C1120;
+  --color-green-800: #E62E50;
+  --color-green-700: #D42648;
+  --color-green-600: #EB526E;
+  --color-green-500: #F2748C;
+  --color-green-400: #F7A5B3;
+  --color-green-100: #FCE4E8;
+
+  /* Accent — the teal that UkayApp uses in its "Auction Business" hero gradient, repurposed for live/bid energy */
+  --color-coral-600: #17A98D;
+  --color-coral-500: #38DCBE;
+  --color-coral-400: #6EE6CE;
+  --color-coral-100: #DFFBF4;
+
+  --color-gold-500: #E8AA3E;
+  --color-gold-300: #F4D394;
+
+  --animate-pulse-slow: pulse 2.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-cream);
+  color: var(--color-charcoal);
+  font-family: var(--font-sans);
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+::selection {
+  background-color: var(--color-coral-500);
+  color: var(--color-cream);
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.animate-marquee {
+  animation: marquee 28s linear infinite;
+}
+
+@keyframes blink-dot {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+.animate-blink-dot {
+  animation: blink-dot 1.4s ease-in-out infinite;
+}
