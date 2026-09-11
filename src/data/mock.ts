@@ -176,12 +176,12 @@ export const benefits = [
 export const testimonials = [
   {
     quote: 'Finally an app that gets what ukay-ukay hunting actually feels like. The live bidding is so addictive.',
-    name: 'Harold R.',
+    name: 'Roldan R.',
     role: 'Waitlist member, Isabela',
   },
   {
     quote: "I've been reselling online for years. UkayApp makes listing and bidding feel effortless, hindi ko na kailangan lumabas.",
-    name: 'Kenski T.',
+    name: 'Kenny T.',
     role: 'Early access tester, Tuguegarao',
   },
   {
